@@ -14,8 +14,8 @@ Hello, I am Louise
 - Aspire to develop Fintech solutions and impact lifes with more digital initiatives!
 
 ### Where did I study?
-- Bachelor's Degree: Economics and Finance (The University of Nottingham)
-- Master's Degree: Master of IT in Business (Singapore Management University) -- In progress
+- **Bachelor's Degree**: Economics and Finance (The University of Nottingham)
+- **Master's Degree**: Master of IT in Business (Singapore Management University) -- In progress
 
 ### What courses or trainings did I attend?
 1. **Chartered Financial Analyst (CFA)** - self study all 3 level (Became a charterholder in 2021)
