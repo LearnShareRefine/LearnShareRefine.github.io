@@ -35,6 +35,6 @@ Hello, I am Louise
 ### What I plan to do in this blog?
 This is a place where I record some of the practice exercises or projects I do in my learning journey. If you find it bored to be on your learning journey all by yourself and don't mind a new friend, I am be the one friend you need!
 
-Of course, if you like mentoring, I totally don't mind to be your mentee!
+Of course, if you like mentoring, I totally don't mind to be your mentee! :wink:
 
 Connect with me at [LinkedIn](https://www.linkedin.com/in/lawshiangrou/)
