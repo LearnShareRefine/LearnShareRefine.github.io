@@ -3,9 +3,6 @@ layout: post
 title: Hello to A Whole New World!
 published: true
 ---
-
-![_config.yml]({{ site.baseurl }}/images/IMG_8071.jpg)
-
 A blog where I record my career transition from a banker into the digital world.
 The world is evolving in ways that put technology at its core. The financial industry will be different from how it used to be & I am really excited to see more developments in areas like insurtech, wealthtech, risktech, digital payment, digital banking etc. 
 
