@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello, I am Louise, this is where I record my learning journey into the digital world.
+Hello, I am Louise. This is where I will be sharing my learning & progression. I used to work in the financial industry as a relationship manager until I took this leap of faith to quit my job and start acquiring skills that are more relevant to the digital world. I believe that the financial industry will be different from how it used to be & I am looking forward to involve myself in Fintech developments such as insurtech, wealthtech, digital payment, digital banking and so much more. 
 
 ### Who Am I?
 - Used to be Relationship Manager in banks
@@ -32,7 +32,7 @@ Hello, I am Louise, this is where I record my learning journey into the digital 
 ### What I plan to do in this blog?
 This is a place where I record some of the practice exercises or projects I do in my learning journey. If you need someone to learn together with or don't mind a new friend, do connect with me!
 
-Of course, if you like mentoring, I will be glad to be your mentee!
+Of course, if you like mentoring, I will be glad to be your mentee! 😉
 
 ### Contact me
 [LinkedIn](https://www.linkedin.com/in/lawshiangrou/)
