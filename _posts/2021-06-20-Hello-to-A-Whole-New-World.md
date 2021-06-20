@@ -4,6 +4,7 @@ title: Hello to A Whole New World!
 published: true
 ---
 ![IMG_8071.jpg](https://github.com/LearnShareRefine/LearnShareRefine.github.io/blob/master/_posts/IMG_8071.jpg)
+
 A blog where I record my career transition from a banker into the digital world.
 The world is evolving in ways that put technology at its core. The financial industry will be different from how it used to be & I am really excited to see more developments in areas like insurtech, wealthtech, risktech, digital payment, digital banking etc. 
 
