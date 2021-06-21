@@ -6,11 +6,11 @@ published: true
 
 ### What have I learnt?
 I had the chance to access to both **Power BI Desktop** and **Power BI Service** for the full suite of experience and learnt the differences between the two.
-- [x] Upload & transform data
+- [x] Upload & Transform Dataset
 - [x] Create Report
 - [x] Create Dashboard
 - [x] Create App
-- [x] Publish & share
+- [x] Publish & Share
 
 ### Result
 Created my first report and dashboard with a small datasets of approximately 1000 rows of data.
