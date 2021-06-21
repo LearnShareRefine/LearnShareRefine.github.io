@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ![IMG_8071](https://user-images.githubusercontent.com/85727619/122676123-172b7b00-d20f-11eb-93ee-2599cf8d9ee6.jpg)
 
-Hello, I am Louise. This is where I will be sharing my learning & progression. I used to work in the financial industry as a relationship manager until I took this leap of faith to quit my job and started acquiring skills that are more relevant to the digital world. I believe that the financial industry will be different from how it used to be & looking forward to contribute towards Fintech developments such as insurtech, wealthtech, digital payment, digital banking and so much more. 
+Hello, I am Louise. This is where I will be sharing my learning & progression. I used to work in the financial industry as a relationship manager until I took this leap of faith to quit my job and started acquiring skills that are more relevant to the digital world. I believe that the financial industry will be different from how it used to be & I am looking forward to contribute towards Fintech developments such as insurtech, wealthtech, digital payment, digital banking and so much more. 
 
 ### Who Am I?
 - Used to be Relationship Manager in banks
