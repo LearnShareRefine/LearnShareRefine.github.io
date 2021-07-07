@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Hands-on experience with Power BI
-categories: Power BI
+categories: PowerBI
 published: true
 ---
 
