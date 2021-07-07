@@ -5,8 +5,10 @@ categories: PowerBI
 published: true
 ---
 
+### Learning Objective
+Manage and edit data in power query, understand DAX logic and create DAX measures on **Power BI Desktop**.
+
 ### What have I learnt?
-Focus on managing data in power query and creating DAX measures on **Power BI Desktop**.
 - [x] Edit and transform data in Query Editor
 - [x] DAX Syntax
 - [x] Create DAX measures
