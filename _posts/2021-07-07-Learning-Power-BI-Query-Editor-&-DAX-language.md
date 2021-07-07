@@ -1,20 +1,9 @@
 ---
 layout: post
 title: Learning Power BI Query Editor & DAX language
-categories: Power BI
+categories: PowerBI
 published: true
 ---
-<div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
 
 ### What have I learnt?
 Focus on managing data in power query and creating DAX measures on **Power BI Desktop**.
@@ -35,3 +24,15 @@ DAX formulas and functions are very similar to Excel formulas which I am familia
 Definitely need more practice on this! 
 
 **Followed through LinkedIn Learning course [Here](https://www.linkedin.com/learning/advanced-microsoft-power-bi/reducing-data-headaches?u=104800994)**
+
+<div class="post-categories">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
