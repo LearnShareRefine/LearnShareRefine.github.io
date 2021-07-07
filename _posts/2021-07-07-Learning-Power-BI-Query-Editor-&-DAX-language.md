@@ -28,9 +28,10 @@ Focus on managing data in power query and creating DAX measures on **Power BI De
 Created a report using Power BI DAX measures and tables to detail a loan and it's payment schedule.
 
 **Report**
+![Dax exercise (loan dashboard) ](https://user-images.githubusercontent.com/85727619/124745183-1e15f580-df52-11eb-8fae-ee0989c2fd8b.jpg)
 
 
 DAX formulas and functions are very similar to Excel formulas which I am familiar to but writing them without Excel cells make it complicated.
 Definitely need more practice on this! 
 
-**Also followed through LinkedIn Learning course [Here](https://www.linkedin.com/learning-login/share?account=104800994&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fpower-bi-essential-training-3%3Ftrk%3Dshare_ent_url%26shareId%3Dw%252FRuhHB%252FS729vrq5%252Br%252BgHQ%253D%253D)**
+**Followed through LinkedIn Learning course [Here](https://www.linkedin.com/learning/advanced-microsoft-power-bi/reducing-data-headaches?u=104800994)**
