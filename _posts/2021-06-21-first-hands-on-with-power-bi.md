@@ -4,17 +4,6 @@ title: First Hands-on experience with Power BI
 categories: Power BI
 published: true
 ---
-<div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
 
 ### What have I learnt?
 I had the chance to access to both **Power BI Desktop** and **Power BI Service** for the full suite of experience and learnt the differences between the two.
@@ -39,3 +28,15 @@ Definitely not the greatest set of visualisation but this exercise allowed me to
 There will be more to come!
 
 **Also followed through [LinkedIn Learning course](https://www.linkedin.com/learning-login/share?account=104800994&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fpower-bi-essential-training-3%3Ftrk%3Dshare_ent_url%26shareId%3Dw%252FRuhHB%252FS729vrq5%252Br%252BgHQ%253D%253D)**
+
+<div class="post-categories">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
