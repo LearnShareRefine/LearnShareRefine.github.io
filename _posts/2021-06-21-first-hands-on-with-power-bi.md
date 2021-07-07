@@ -1,9 +1,20 @@
 ---
 layout: post
 title: First Hands-on experience with Power BI
-category: Power BI
+categories: Power BI
 published: true
 ---
+<div class="post-categories">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
 
 ### What have I learnt?
 I had the chance to access to both **Power BI Desktop** and **Power BI Service** for the full suite of experience and learnt the differences between the two.
