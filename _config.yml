@@ -17,7 +17,7 @@ avatar: https://raw.githubusercontent.com/LearnShareRefine/LearnShareRefine.gith
 #
 
 # This is the list of pages to incldue in the header of the website.
-pages_list:       {'About':'/about','Archive':'/archive','Blog':'/post'}
+pages_list:       {'About':'/about','Categories':'/categories','Posts':'/archive'}
 
 # Includes an icon in the footer for each username you enter
 footer-links:
