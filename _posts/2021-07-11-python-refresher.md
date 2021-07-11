@@ -7,7 +7,7 @@ published: true
 
 ### Learning Objective
 To refresh and practice on Python codes, starting from the real basic!
-I have done a few Python courses and some projects in 2019 & 2020 but ever since then I didn't touch any of those codes. It's time to revisit them!
+I have done a few Python courses and projects in 2019 & 2020 but ever since then I didn't touch any of those codes. It's time to revisit them!
 
 ### Result
 I revisited some of the Python basics, did some exercises and collated a reference note in Jupyter Notebook.
