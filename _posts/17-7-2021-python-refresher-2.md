@@ -25,9 +25,9 @@ Did some practice exercises on For Loop and While Loop
 ![For loop 5](https://user-images.githubusercontent.com/85727619/126041163-99111fde-44b9-4bd3-b10f-2face95f075d.jpg)
 
 #### Fizz-Buzz Test
-![FizzBuzz](https://user-images.githubusercontent.com/85727619/126041168-39c95448-1a03-47fe-9986-280bdfd86a90.jpg)
+![FizzBuzz1](https://user-images.githubusercontent.com/85727619/126041327-dd7668a7-b275-445c-b5af-b34880d7d2fb.jpg)
 
-I am quite surprised that I can still remember most of the things I have learnt before and can now improve on the codes I have written previously!
+I am quite surprised that I can still remember most of the things I have learnt before and can even improve on the codes I have written previously!
 
 <div class="post-categories">
   {% if post %}
