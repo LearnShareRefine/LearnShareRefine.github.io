@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python Refresher 1
+title: Python Refresher 1 (Basic Iteration)
 categories: Python
 published: true
 ---
