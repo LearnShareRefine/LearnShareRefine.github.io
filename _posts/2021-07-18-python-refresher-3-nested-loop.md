@@ -9,7 +9,7 @@ published: true
 Practice makes perfect! Challenge myself with more complicated problems!
 
 ### Result
-Did some practice exercises on nested For Loop with real-world data
+Did some practice exercises on nested For Loop with real-world data. 
 Oh, also printed a tree!
 
 #### Practice 1
