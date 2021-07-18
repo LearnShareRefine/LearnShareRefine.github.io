@@ -25,6 +25,7 @@ Oh, also printed a tree!
 #### Practice 4 - Tree!
 ![q4](https://user-images.githubusercontent.com/85727619/126063664-f909d559-09c8-44a0-88be-9b591a9ce4ee.jpg)
 
+Self learning can be so fun!
 
 <div class="post-categories">
   {% if post %}
