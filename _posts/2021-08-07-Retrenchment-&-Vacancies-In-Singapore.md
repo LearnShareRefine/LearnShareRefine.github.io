@@ -4,11 +4,6 @@ title: Retrenchment & Vacancies In Singapore - using Numpy, Pandas, Matplotlib
 categories: Python
 published: true
 ---
-<span style="color:blue">some *This is Blue italic.* text</span>
-
-<span style="color:red">some **This is Red Bold.** text</span>
-
-<font color='red'>test blue color font</font>
 
 ### Learning Objective
 Using the modules to clean, transform and visualise Singapore retrenchment and job vacancies data from 1998 - 2020.
@@ -26,7 +21,7 @@ Data from: [data.gov.sg](data.gov.sg)
 
 ### Importing and cleaning data
 
-```
+```python
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -51,7 +46,8 @@ df_retrench.head(20)
 
 ![Output 1jpg](https://user-images.githubusercontent.com/85727619/128590108-357d727e-d15e-48e7-a6a0-6319fa6541cb.jpg)
 
-### Q: Did Singapore face the most severe retrenchments in 2020?
+<H3><font color='#003399'> Q: Did Singapore face the most severe retrenchments in 2020? </font></H3>
+
 ```python
 df_retrench_year = df_retrench.groupby(["year"]).agg([np.sum, np.mean])["retrench"].reset_index()
 
@@ -74,7 +70,7 @@ plt.show()
 From the above graph, we can tell that there were more retrenchment in 1998 and 2001 than in 2020.
 
 
-### Q: Which are the most badly impacted industry in these 3 years (1998, 2001, 2020)?
+### <font color='#003399'> Q: Which are the most badly impacted industry in these 3 years (1998, 2001, 2020)? </font>
 ```python
 df_retrench_year_industry = df_retrench.groupby(["year",'industry1']).agg([np.sum])["retrench"].reset_index()
 
@@ -126,7 +122,7 @@ plt.show()
 Unlike the 2 earlier years, where manufacturing was the industry facing most retrenchments, in 2020, services was the most badly impacted industry.
 
 
-### Q: Which line of service in specific has the highest retrenchment in 2020?
+### <font color='#003399'> Q: Which line of service in specific has the highest retrenchment in 2020? </font>
 ```python
 df_retrench_services = df_retrench["industry1"]=="services"
 df_retrench_2020 = df_retrench["year"]=="2020"
@@ -157,7 +153,7 @@ plt.show()
 
 ![Output 4](https://user-images.githubusercontent.com/85727619/128590728-14e258c6-6610-4b2d-b9d0-79b3c7c3f3d7.jpg)
 
-### Q: Are there enough vacancies in the service industry?
+### <font color='#003399'> Q: Are there enough vacancies in the service industry? </font>
 
 ```python
 # read vacancy file into dataframe
