@@ -4,12 +4,17 @@ title: Retrenchment & Vacancies In Singapore - using Numpy, Pandas, Matplotlib
 categories: Python
 published: true
 ---
+<span style="color:blue">some *This is Blue italic.* text</span>
+
+<span style="color:red">some **This is Red Bold.** text</span>
+
+<font color='red'>test blue color font</font>
 
 ### Learning Objective
 Using the modules to clean, transform and visualise Singapore retrenchment and job vacancies data from 1998 - 2020.
 
 ### Dataset
-:link: Data from: [data.gov.sg](data.gov.sg)
+Data from: [data.gov.sg](data.gov.sg)
 
 [Retrenchment Dataset](https://data.gov.sg/dataset/retrenched-employees-by-industry-and-occupational-group-quarterly?resource_id=39fd4186-8a2b-441d-8de4-8ece239c5f39)
 
