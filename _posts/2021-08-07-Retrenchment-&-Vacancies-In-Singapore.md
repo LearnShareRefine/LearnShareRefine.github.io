@@ -4,11 +4,7 @@ title: Retrenchment & Vacancies In Singapore - using Numpy, Pandas, Matplotlib
 categories: Python
 published: true
 ---
-<H6>
-```python
-for i in March:
-    print (i)
-```</H6>
+
 ### Learning Objective
 Using the modules to clean, transform and visualise Singapore retrenchment and job vacancies data from 1998 - 2020.
 
@@ -24,49 +20,14 @@ Data from: [data.gov.sg](data.gov.sg)
 <iframe width="600" height="400" src="https://data.gov.sg/dataset/job-vacancy-by-industry-and-occupational-group-annual/resource/c9aa2db3-99f8-45cf-a0f3-7a86fced62df/view/25d8cab6-2ac3-4ba3-ba58-ae7de8d55e9d" frameBorder="0"> </iframe>
 
 ### Importing data as Pandas dataframe and cleaning data
-```python
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
 
-# read retrenchment file into dataframe
-xls = pd.ExcelFile('retrenchment-by-industry-level-2.xlsx')
-df_retrench = xls.parse('retrenchment-by-industry-level')
-
-# Split into year and quarter:
-df_retrench["year"] = df_retrench["quarter"].str.split('-').str[0]
-df_retrench["quarter"] = df_retrench["quarter"].str.split('-').str[1]
-
-# move year to the first column
-df_retrench.insert(0, "year", df_retrench.pop("year"))
-
-# Convert values to flaot & coerce invalid values to NaN, then replace NaN with 0 and convert all to integer
-df_retrench['retrench'] = pd.to_numeric(df_retrench['retrench'], errors='coerce').fillna(0).astype('int')
-
-print(df_retrench.shape)
-df_retrench.head(20)
-```
+![1](https://user-images.githubusercontent.com/85727619/128604807-4784e734-48b8-4268-8a8d-dbd578bfb104.jpg)
 
 ![Output 1jpg](https://user-images.githubusercontent.com/85727619/128590108-357d727e-d15e-48e7-a6a0-6319fa6541cb.jpg)
 
 <H3><font color='#003399'> Q: Did Singapore face the most severe retrenchments in 2020? </font></H3>
 
-```python
-df_retrench_year = df_retrench.groupby(["year"]).agg([np.sum, np.mean])["retrench"].reset_index()
-
-# Plot a line chart to visualise the retrenchments from 1998 till 2020
-fig, ax = plt.subplots(figsize=(12,6))
-plt.plot (df_retrench_year["year"], df_retrench_year["sum"],
-          color = "orange", marker = "o", 
-          markersize = 10, label="All Industry")
-
-plt.xlabel('Year')
-plt.ylabel('Retrenchment')
-plt.legend(loc='best')
-plt.title("Retrenchment by Year (All industry)")
-plt.grid(b=True,alpha = 0.3)
-plt.show()
-```
+![2](https://user-images.githubusercontent.com/85727619/128604836-ec952e89-fde5-4f14-bf69-c99b270d014b.jpg)
 
 ![Output 2](https://user-images.githubusercontent.com/85727619/128590222-9ad844c5-ab5e-4731-80bc-0bd0bd152b82.jpg)
 
@@ -74,51 +35,12 @@ From the above graph, we can tell that there were more retrenchment in 1998 and 
 
 
 ### <font color='#003399'> Q: Which are the most badly impacted industry in these 3 years (1998, 2001, 2020)? </font>
-```python
-df_retrench_year_industry = df_retrench.groupby(["year",'industry1']).agg([np.sum])["retrench"].reset_index()
 
-select_year = df_retrench_year_industry["year"].isin(["1998", "2001", "2020"])
-df_retrench_3year_industry = df_retrench_year_industry[select_year]
-
-df_retrench_3year_industry.set_index("year", inplace = True)
-df_retrench_3year_industry
-```
+![3](https://user-images.githubusercontent.com/85727619/128604851-baa318b5-034c-4e78-a299-2b00046d2a87.jpg)
 
 ![Output 2 5](https://user-images.githubusercontent.com/85727619/128590789-88dcb35a-6352-473b-ae79-ace3482b21b8.jpg)
 
-```python
-# Plot a bar graph to visualise the retrenchment by industry in these 3 years
-# set width of bar
-barWidth = 0.25
-fig, ax = plt.subplots(figsize =(12, 6))
-
-# set height of bar
-construction = df_retrench_3year_industry[df_retrench_3year_industry["industry1"]=="construction"]["sum"]
-manufacturing = df_retrench_3year_industry[df_retrench_3year_industry["industry1"]=="manufacturing"]["sum"]
-services = df_retrench_3year_industry[df_retrench_3year_industry["industry1"]=="services"]["sum"]
-
-# Set position of bar on X axis
-bar1 = np.arange(len(construction))
-bar2 = [x + barWidth for x in bar1]
-bar3 = [x + barWidth for x in bar2]
- 
-# Make the plot
-plt.bar(bar1, construction, color ='#b30000', width = barWidth,
-        edgecolor ='grey', label ='Construction')
-plt.bar(bar2, manufacturing, color ='#003d99', width = barWidth,
-        edgecolor ='grey', label ='Manufacturing')
-plt.bar(bar3, services, color ='#00802b', width = barWidth,
-        edgecolor ='grey', label ='Services')
- 
-# Adding Xticks
-plt.xlabel('Year')
-plt.ylabel('Retrenchment')
-plt.title("Years with Highest Retrenchment (Industry Breakdown)",fontweight ='bold', fontsize = 15)
-plt.xticks([r + barWidth for r in range(len(construction))],['1998','2001','2020'])
-
-plt.legend(loc='best')
-plt.show()
-```
+![4](https://user-images.githubusercontent.com/85727619/128604874-9cdcc8d7-af7c-49ab-bd31-470e1bfb1d7f.jpg)
 
 ![Output 3](https://user-images.githubusercontent.com/85727619/128590561-5b99ced2-43e6-4319-b7bc-b1d1bacae443.jpg)
 
@@ -126,75 +48,23 @@ Unlike the 2 earlier years, where manufacturing was the industry facing most ret
 
 
 ### <font color='#003399'> Q: Which line of service in specific has the highest retrenchment in 2020? </font>
-```python
-df_retrench_services = df_retrench["industry1"]=="services"
-df_retrench_2020 = df_retrench["year"]=="2020"
-df_retrench_services_2020 = df_retrench[df_retrench_services & df_retrench_2020]
 
-df_retrench_services_2020 = df_retrench_services_2020.groupby("industry2").agg([np.sum])["retrench"].reset_index()
-df_retrench_services_2020 = df_retrench_services_2020.sort_values(by=['sum'],ascending=True)
-df_retrench_services_2020
-```
+![5](https://user-images.githubusercontent.com/85727619/128604886-46981476-e10f-4c51-aad5-61a9e416daff.jpg)
 
 ![Output 3 5](https://user-images.githubusercontent.com/85727619/128590766-0cd5dfcd-bcb5-4aa8-84c0-e85b9c8df6bb.jpg)
 
-```python
-# plot a horizontal bar graph for visualisation
-from matplotlib import cm
-n = len(df_retrench_services_2020)
-colors = cm.Greens(np.linspace(0.3, 1, n))
-ax = df_retrench_services_2020.plot.barh(x='industry2', y='sum',
-                                figsize=(12,6),
-                                legend = False,
-                                title = "2020 Retrenchment in Service Industry",
-                                color = colors)
-
-ax.set_ylabel('Service Lines')
-ax.set_xlabel('Retrenchment')
-plt.show()
-```
+![6](https://user-images.githubusercontent.com/85727619/128604904-025a1508-1825-4c57-9003-829316057dc2.jpg)
 
 ![Output 4](https://user-images.githubusercontent.com/85727619/128590728-14e258c6-6610-4b2d-b9d0-79b3c7c3f3d7.jpg)
 
+
 ### <font color='#003399'> Q: Are there enough vacancies in the service industry? </font>
 
-```python
-# read vacancy file into dataframe
-xls = pd.ExcelFile('job-vacancy-by-industry-level-2.xlsx')
-df_vacant = xls.parse('job-vacancy-by-industry-level-2')
-print(df_vacant.shape)
-
-df_vacant['job_vacancy'] = pd.to_numeric(df_vacant['job_vacancy'], errors='coerce').fillna(0).astype('int')
-df_vacant_industry = df_vacant.groupby(["year","industry1"]).agg([np.sum])["job_vacancy"].reset_index()
-df_vacant_1998 = df_vacant_industry[df_vacant_industry["year"]>1997]
-df_vacant_1998.head()
-```
+![7](https://user-images.githubusercontent.com/85727619/128604917-0181c913-3204-406c-bc50-28b45e2808a7.jpg)
 
 ![Output 4 5](https://user-images.githubusercontent.com/85727619/128601689-079ad328-4bc6-4649-ae7d-62dc7d5454de.jpg)
 
-```python
-# Plot a line chart to visualise the relationship between retrenchment and vacancy in service industry
-df_retrench_year_industry["year"] = df_retrench_year_industry["year"].astype('int')
-df_retrench_ex_2021 = df_retrench_year_industry[df_retrench_year_industry["year"]<2021]
-df_retrench_service_ex_2021 = df_retrench_ex_2021[df_retrench_ex_2021["industry1"]=="services"]
-df_vacant_service = df_vacant_1998[df_vacant_1998["industry1"]=="services"]
-
-fig, ax = plt.subplots(figsize=(12,6))
-plt.plot (df_retrench_service_ex_2021["year"], df_retrench_service_ex_2021["sum"],
-          color = "Red", marker = "o", 
-          markersize = 10, label="Retrenchment")
-
-plt.plot (df_vacant_service["year"], df_vacant_service["sum"],
-          color = "Orange", marker = "o", 
-          markersize = 10, label="Vacancy")
-
-plt.xlabel('Year')
-plt.ylabel('Total')
-plt.legend(loc='best')
-plt.title("Retrenchment & Vacancy by Year (Services industry)",fontweight ='bold', fontsize = 15)
-plt.grid(b=True,alpha = 0.3)
-plt.show()
-```
+![8](https://user-images.githubusercontent.com/85727619/128604935-2c24d0ac-62b8-49d5-ab6b-d8441c5c5b86.jpg)
 
 ![Output 5](https://user-images.githubusercontent.com/85727619/128601787-7336fb31-f378-4863-ae93-dcc980e98c2f.jpg)
 
@@ -202,35 +72,11 @@ Seems like there was quite a number of vacancies unfilled despite sharp increase
 
 Let's see where in service industry do the unfilled vacancies lie.
 
-```python
-df_vacant_services = df_vacant["industry1"]=="services"
-df_vacant_2020 = df_vacant["year"]==2020
-df_vacant_services_2020 = df_vacant[df_vacant_services & df_vacant_2020]
-df_vacant_services_2020.dtypes
-df_2020_ret_vac = pd.merge(left = df_retrench_services_2020, 
-                           right = df_vacant_services_2020, 
-                           how ='inner', 
-                           left_on ='industry2', 
-                           right_on ='industry2')
-
-df_2020_ret_vac = df_2020_ret_vac[["industry2","sum","job_vacancy"]]
-df_2020_ret_vac
-```
+![9](https://user-images.githubusercontent.com/85727619/128604952-fee2f372-feea-4ccc-a836-4875b3b6b967.jpg)
 
 ![Output 5 5](https://user-images.githubusercontent.com/85727619/128601872-fce372dd-6bb8-49b3-b3f8-215fc5f0dfa4.jpg)
 
-```python
-df_2020_ret_vac.plot.barh(x='industry2',stacked = False,
-                       figsize = (12,6),
-                       fontsize = 12, color = ["#ff6600","#ffc299"],
-                       legend = True,
-                       title = "2020 Retrenchment and Vacancy in Service Industry")
-
-plt.legend(["Retrenchement", "Vacancy"])
-plt.xlabel("Total")
-plt.ylabel("Service Lines")
-plt.show()
-```
+![10](https://user-images.githubusercontent.com/85727619/128604965-8f816ba3-69e8-4e61-be67-186d02a0c74a.jpg)
 
 ![Output 6](https://user-images.githubusercontent.com/85727619/128601901-5e64a83c-d677-4715-b783-9ba998b08048.jpg)
 
@@ -242,7 +88,8 @@ According to [data.gov.sg](https://data.gov.sg/), below groups of occupations be
 3. Arts, entertainment and recreation
 4. Other community, social and personal services
 
-Was there a workforce shortage in this field?
+So are we right to say that there was a workforce shortage in this field in year 2020?
+
 
 <div class="post-categories">
   {% if post %}
