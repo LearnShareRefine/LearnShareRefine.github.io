@@ -226,14 +226,15 @@ plt.show()
 
 ![Output 6](https://user-images.githubusercontent.com/85727619/128601901-5e64a83c-d677-4715-b783-9ba998b08048.jpg)
 
-Seems like there was a workforce shortage in the field of *Community, Social and Personal Services*. 
+It appears that *Community, Social and Personal Services* has the highest unfilled vacancies in 2020.
+
 According to [data.gov.sg](https://data.gov.sg/), below groups of occupations belong to the field of Community, Social and Personal Services:
 1) Public administration and education
 2) Health and social services
 3) Arts, entertainment and recreation
 4) Other community, social and personal services
 
-
+Was there a workforce shortage in this field? :octocat:
 
 <div class="post-categories">
   {% if post %}
