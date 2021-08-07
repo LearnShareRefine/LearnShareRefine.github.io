@@ -28,7 +28,7 @@ Hello, I am Louise. This is where I will be sharing my learning & progression. I
     - Design thinking
     - Business excel modelling
     - Agile method
-3. **Other online/offline courses** from LinkedIn Learning, Datacamp, youtube etc
+3. **Other online/offline courses** from LinkedIn Learning, Datacamp, Coursera, youtube etc
 
 ### What I plan to do in this blog?
 This is a place where I record some of the practice exercises or projects I do in my learning journey. If you need someone to learn together with or don't mind a new friend, do connect with me!
