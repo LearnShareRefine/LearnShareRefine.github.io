@@ -21,30 +21,27 @@ Data from: [data.gov.sg](data.gov.sg)
 
 ### Importing and cleaning data
 
-```python
+          import numpy as np
+          import pandas as pd
+          import matplotlib.pyplot as plt
 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
+          # read retrenchment file into dataframe
+          xls = pd.ExcelFile('retrenchment-by-industry-level-2.xlsx')
+          df_retrench = xls.parse('retrenchment-by-industry-level')
 
-# read retrenchment file into dataframe
-xls = pd.ExcelFile('retrenchment-by-industry-level-2.xlsx')
-df_retrench = xls.parse('retrenchment-by-industry-level')
+          # Split into year and quarter:
+          df_retrench["year"] = df_retrench["quarter"].str.split('-').str[0]
+          df_retrench["quarter"] = df_retrench["quarter"].str.split('-').str[1]
 
-# Split into year and quarter:
-df_retrench["year"] = df_retrench["quarter"].str.split('-').str[0]
-df_retrench["quarter"] = df_retrench["quarter"].str.split('-').str[1]
+          # move year to the first column
+          df_retrench.insert(0, "year", df_retrench.pop("year"))
 
-# move year to the first column
-df_retrench.insert(0, "year", df_retrench.pop("year"))
+          # Convert values to flaot & coerce invalid values to NaN, then replace NaN with 0 and convert all to integer
+          df_retrench['retrench'] = pd.to_numeric(df_retrench['retrench'], errors='coerce').fillna(0).astype('int')
 
-# Convert values to flaot & coerce invalid values to NaN, then replace NaN with 0 and convert all to integer
-df_retrench['retrench'] = pd.to_numeric(df_retrench['retrench'], errors='coerce').fillna(0).astype('int')
+          print(df_retrench.shape)
+          df_retrench.head(20)
 
-print(df_retrench.shape)
-df_retrench.head(20)
-
-```
 
 ![Output 1jpg](https://user-images.githubusercontent.com/85727619/128590108-357d727e-d15e-48e7-a6a0-6319fa6541cb.jpg)
 
@@ -236,10 +233,10 @@ plt.show()
 It appears that *Community, Social and Personal Services* has the highest unfilled vacancies in 2020.
 
 According to [data.gov.sg](https://data.gov.sg/), below groups of occupations belong to the field of Community, Social and Personal Services:
-- 1) Public administration and education
-- 2) Health and social services
-- 3) Arts, entertainment and recreation
-- 4) Other community, social and personal services
+1. Public administration and education
+2. Health and social services
+3. Arts, entertainment and recreation
+4. Other community, social and personal services
 
 Was there a workforce shortage in this field?
 
