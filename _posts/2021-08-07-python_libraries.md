@@ -10,6 +10,7 @@ Using the modules to clean, transform and visualise Singapore retrenchment and j
 
 ### Dataset
 Obtained from: [data.gov.sg](data.gov.sg)
+
 [Retrenchment Dataset](https://data.gov.sg/dataset/retrenched-employees-by-industry-and-occupational-group-quarterly?resource_id=39fd4186-8a2b-441d-8de4-8ece239c5f39)
 
 <iframe width="600" height="400" src="https://data.gov.sg/dataset/retrenched-employees-by-industry-and-occupational-group-quarterly/resource/39fd4186-8a2b-441d-8de4-8ece239c5f39/view/d626d058-924f-4d9f-9c96-91d8adee6496" frameBorder="0"> </iframe>
@@ -19,6 +20,7 @@ Obtained from: [data.gov.sg](data.gov.sg)
 <iframe width="600" height="400" src="https://data.gov.sg/dataset/job-vacancy-by-industry-and-occupational-group-annual/resource/c9aa2db3-99f8-45cf-a0f3-7a86fced62df/view/25d8cab6-2ac3-4ba3-ba58-ae7de8d55e9d" frameBorder="0"> </iframe>
 
 ### Importing and cleaning data
+
 ````python
 import numpy as np
 import pandas as pd
