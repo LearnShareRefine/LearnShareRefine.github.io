@@ -4,7 +4,11 @@ title: Retrenchment & Vacancies In Singapore - using Numpy, Pandas, Matplotlib
 categories: Python
 published: true
 ---
-
+<H6>
+```python
+for i in March:
+    print (i)
+```</H6>
 ### Learning Objective
 Using the modules to clean, transform and visualise Singapore retrenchment and job vacancies data from 1998 - 2020.
 
@@ -19,29 +23,29 @@ Data from: [data.gov.sg](data.gov.sg)
 
 <iframe width="600" height="400" src="https://data.gov.sg/dataset/job-vacancy-by-industry-and-occupational-group-annual/resource/c9aa2db3-99f8-45cf-a0f3-7a86fced62df/view/25d8cab6-2ac3-4ba3-ba58-ae7de8d55e9d" frameBorder="0"> </iframe>
 
-### Importing and cleaning data
+### Importing data as Pandas dataframe and cleaning data
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 
-          import numpy as np
-          import pandas as pd
-          import matplotlib.pyplot as plt
+# read retrenchment file into dataframe
+xls = pd.ExcelFile('retrenchment-by-industry-level-2.xlsx')
+df_retrench = xls.parse('retrenchment-by-industry-level')
 
-          # read retrenchment file into dataframe
-          xls = pd.ExcelFile('retrenchment-by-industry-level-2.xlsx')
-          df_retrench = xls.parse('retrenchment-by-industry-level')
+# Split into year and quarter:
+df_retrench["year"] = df_retrench["quarter"].str.split('-').str[0]
+df_retrench["quarter"] = df_retrench["quarter"].str.split('-').str[1]
 
-          # Split into year and quarter:
-          df_retrench["year"] = df_retrench["quarter"].str.split('-').str[0]
-          df_retrench["quarter"] = df_retrench["quarter"].str.split('-').str[1]
+# move year to the first column
+df_retrench.insert(0, "year", df_retrench.pop("year"))
 
-          # move year to the first column
-          df_retrench.insert(0, "year", df_retrench.pop("year"))
+# Convert values to flaot & coerce invalid values to NaN, then replace NaN with 0 and convert all to integer
+df_retrench['retrench'] = pd.to_numeric(df_retrench['retrench'], errors='coerce').fillna(0).astype('int')
 
-          # Convert values to flaot & coerce invalid values to NaN, then replace NaN with 0 and convert all to integer
-          df_retrench['retrench'] = pd.to_numeric(df_retrench['retrench'], errors='coerce').fillna(0).astype('int')
-
-          print(df_retrench.shape)
-          df_retrench.head(20)
-
+print(df_retrench.shape)
+df_retrench.head(20)
+```
 
 ![Output 1jpg](https://user-images.githubusercontent.com/85727619/128590108-357d727e-d15e-48e7-a6a0-6319fa6541cb.jpg)
 
