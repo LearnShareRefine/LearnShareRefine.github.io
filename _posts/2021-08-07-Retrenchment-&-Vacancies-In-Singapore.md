@@ -9,7 +9,7 @@ published: true
 Using the modules to clean, transform and visualise Singapore retrenchment and job vacancies data from 1998 - 2020.
 
 ### Dataset
-Data from: [data.gov.sg](data.gov.sg)
+Data from: [data.gov.sg](https://data.gov.sg/)
 
 [Retrenchment Dataset](https://data.gov.sg/dataset/retrenched-employees-by-industry-and-occupational-group-quarterly?resource_id=39fd4186-8a2b-441d-8de4-8ece239c5f39)
 
