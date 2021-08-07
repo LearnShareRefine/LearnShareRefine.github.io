@@ -9,11 +9,17 @@ published: true
 Using the modules to clean, transform and visualise Singapore retrenchment and job vacancies data from 1998 - 2020.
 
 ### Dataset
-Obtained from: data.gov.sg/dataset/
+Obtained from: [data.gov.sg](data.gov.sg)
+[Retrenchment Dataset](https://data.gov.sg/dataset/retrenched-employees-by-industry-and-occupational-group-quarterly?resource_id=39fd4186-8a2b-441d-8de4-8ece239c5f39)
+
+<iframe width="600" height="400" src="https://data.gov.sg/dataset/retrenched-employees-by-industry-and-occupational-group-quarterly/resource/39fd4186-8a2b-441d-8de4-8ece239c5f39/view/d626d058-924f-4d9f-9c96-91d8adee6496" frameBorder="0"> </iframe>
+
+[Vacancy Dataset](https://data.gov.sg/dataset/job-vacancy-by-industry-and-occupational-group-annual?resource_id=c9aa2db3-99f8-45cf-a0f3-7a86fced62df)
+
 <iframe width="600" height="400" src="https://data.gov.sg/dataset/job-vacancy-by-industry-and-occupational-group-annual/resource/c9aa2db3-99f8-45cf-a0f3-7a86fced62df/view/25d8cab6-2ac3-4ba3-ba58-ae7de8d55e9d" frameBorder="0"> </iframe>
 
-### Reading and cleaning data
-```python
+### Importing and cleaning data
+````python
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -34,7 +40,7 @@ df_retrench['retrench'] = pd.to_numeric(df_retrench['retrench'], errors='coerce'
 
 print(df_retrench.shape)
 df_retrench.head(20)
-```
+````
 ![Output 1jpg](https://user-images.githubusercontent.com/85727619/128590108-357d727e-d15e-48e7-a6a0-6319fa6541cb.jpg)
 
 ### Q: Did Singapore face the most severe retrenchments in 2020?
@@ -142,6 +148,90 @@ plt.show()
 ```
 
 ![Output 4](https://user-images.githubusercontent.com/85727619/128590728-14e258c6-6610-4b2d-b9d0-79b3c7c3f3d7.jpg)
+
+### Q: Are there enough vacancies in the service industry?
+
+```python
+# read vacancy file into dataframe
+xls = pd.ExcelFile('job-vacancy-by-industry-level-2.xlsx')
+df_vacant = xls.parse('job-vacancy-by-industry-level-2')
+print(df_vacant.shape)
+
+df_vacant['job_vacancy'] = pd.to_numeric(df_vacant['job_vacancy'], errors='coerce').fillna(0).astype('int')
+df_vacant_industry = df_vacant.groupby(["year","industry1"]).agg([np.sum])["job_vacancy"].reset_index()
+df_vacant_1998 = df_vacant_industry[df_vacant_industry["year"]>1997]
+df_vacant_1998.head()
+```
+
+![Output 4 5](https://user-images.githubusercontent.com/85727619/128601689-079ad328-4bc6-4649-ae7d-62dc7d5454de.jpg)
+
+```python
+# Plot a line chart to visualise the relationship between retrenchment and vacancy in service industry
+df_retrench_year_industry["year"] = df_retrench_year_industry["year"].astype('int')
+df_retrench_ex_2021 = df_retrench_year_industry[df_retrench_year_industry["year"]<2021]
+df_retrench_service_ex_2021 = df_retrench_ex_2021[df_retrench_ex_2021["industry1"]=="services"]
+df_vacant_service = df_vacant_1998[df_vacant_1998["industry1"]=="services"]
+
+fig, ax = plt.subplots(figsize=(12,6))
+plt.plot (df_retrench_service_ex_2021["year"], df_retrench_service_ex_2021["sum"],
+          color = "Red", marker = "o", 
+          markersize = 10, label="Retrenchment")
+
+plt.plot (df_vacant_service["year"], df_vacant_service["sum"],
+          color = "Orange", marker = "o", 
+          markersize = 10, label="Vacancy")
+
+plt.xlabel('Year')
+plt.ylabel('Total')
+plt.legend(loc='best')
+plt.title("Retrenchment & Vacancy by Year (Services industry)",fontweight ='bold', fontsize = 15)
+plt.grid(b=True,alpha = 0.3)
+plt.show()
+```
+
+![Output 5](https://user-images.githubusercontent.com/85727619/128601787-7336fb31-f378-4863-ae93-dcc980e98c2f.jpg)
+
+Still a big gap of vacancy unfilled despite sharp increase in retrenchment?
+Let's see where in service industry does the unfilled vacancies lie.
+
+```python
+df_vacant_services = df_vacant["industry1"]=="services"
+df_vacant_2020 = df_vacant["year"]==2020
+df_vacant_services_2020 = df_vacant[df_vacant_services & df_vacant_2020]
+df_vacant_services_2020.dtypes
+df_2020_ret_vac = pd.merge(left = df_retrench_services_2020, 
+                           right = df_vacant_services_2020, 
+                           how ='inner', 
+                           left_on ='industry2', 
+                           right_on ='industry2')
+
+df_2020_ret_vac = df_2020_ret_vac[["industry2","sum","job_vacancy"]]
+df_2020_ret_vac
+```
+
+![Output 5 5](https://user-images.githubusercontent.com/85727619/128601872-fce372dd-6bb8-49b3-b3f8-215fc5f0dfa4.jpg)
+
+```python
+df_2020_ret_vac.plot.barh(x='industry2',stacked = False,
+                       figsize = (12,6),
+                       fontsize = 12, color = ["#ff6600","#ffc299"],
+                       legend = True,
+                       title = "2020 Retrenchment and Vacancy in Service Industry")
+
+plt.legend(["Retrenchement", "Vacancy"])
+plt.xlabel("Total")
+plt.ylabel("Service Lines")
+plt.show()
+```
+
+![Output 6](https://user-images.githubusercontent.com/85727619/128601901-5e64a83c-d677-4715-b783-9ba998b08048.jpg)
+
+Seems like there was a workforce shortage in the field of *Community, Social and Personal Services*. 
+According to [data.gov.sg](https://data.gov.sg/), below groups of occupations belong to the field of Community, Social and Personal Services:
+1) Public administration and education
+2) Health and social services
+3) Arts, entertainment and recreation
+4) Other community, social and personal services
 
 
 
