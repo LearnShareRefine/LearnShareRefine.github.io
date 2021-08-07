@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python Library - Numpy, Pandas, Matplotlib
+title: Retrenchment & Vacancies In Singapore - using Numpy, Pandas, Matplotlib
 categories: Python
 published: true
 ---
@@ -9,7 +9,7 @@ published: true
 Using the modules to clean, transform and visualise Singapore retrenchment and job vacancies data from 1998 - 2020.
 
 ### Dataset
-Obtained from: [data.gov.sg](data.gov.sg)
+:link: Data from: [data.gov.sg](data.gov.sg)
 
 [Retrenchment Dataset](https://data.gov.sg/dataset/retrenched-employees-by-industry-and-occupational-group-quarterly?resource_id=39fd4186-8a2b-441d-8de4-8ece239c5f39)
 
@@ -21,7 +21,7 @@ Obtained from: [data.gov.sg](data.gov.sg)
 
 ### Importing and cleaning data
 
-````python
+```
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -42,7 +42,8 @@ df_retrench['retrench'] = pd.to_numeric(df_retrench['retrench'], errors='coerce'
 
 print(df_retrench.shape)
 df_retrench.head(20)
-````
+```
+
 ![Output 1jpg](https://user-images.githubusercontent.com/85727619/128590108-357d727e-d15e-48e7-a6a0-6319fa6541cb.jpg)
 
 ### Q: Did Singapore face the most severe retrenchments in 2020?
@@ -193,8 +194,9 @@ plt.show()
 
 ![Output 5](https://user-images.githubusercontent.com/85727619/128601787-7336fb31-f378-4863-ae93-dcc980e98c2f.jpg)
 
-Still a big gap of vacancy unfilled despite sharp increase in retrenchment?
-Let's see where in service industry does the unfilled vacancies lie.
+Seems like there was quite a number of vacancies unfilled despite sharp increase in retrenchment?
+
+Let's see where in service industry do the unfilled vacancies lie.
 
 ```python
 df_vacant_services = df_vacant["industry1"]=="services"
@@ -231,12 +233,12 @@ plt.show()
 It appears that *Community, Social and Personal Services* has the highest unfilled vacancies in 2020.
 
 According to [data.gov.sg](https://data.gov.sg/), below groups of occupations belong to the field of Community, Social and Personal Services:
-1) Public administration and education
-2) Health and social services
-3) Arts, entertainment and recreation
-4) Other community, social and personal services
+- 1) Public administration and education
+- 2) Health and social services
+- 3) Arts, entertainment and recreation
+- 4) Other community, social and personal services
 
-Was there a workforce shortage in this field? :octocat:
+Was there a workforce shortage in this field?
 
 <div class="post-categories">
   {% if post %}
