@@ -21,13 +21,13 @@ Data from: [data.gov.sg](data.gov.sg)
 
 ### Importing data as Pandas dataframe and cleaning data
 
-![1](https://user-images.githubusercontent.com/85727619/128604807-4784e734-48b8-4268-8a8d-dbd578bfb104.jpg)
+![1](https://user-images.githubusercontent.com/85727619/128605237-4145cc6a-5ee7-42a6-bb7e-c107440bd454.jpg)
 
 ![Output 1jpg](https://user-images.githubusercontent.com/85727619/128590108-357d727e-d15e-48e7-a6a0-6319fa6541cb.jpg)
 
 <H3><font color='#003399'> Q: Did Singapore face the most severe retrenchments in 2020? </font></H3>
 
-![2](https://user-images.githubusercontent.com/85727619/128604836-ec952e89-fde5-4f14-bf69-c99b270d014b.jpg)
+![2](https://user-images.githubusercontent.com/85727619/128605244-2f81e5cd-a46b-413b-bd1d-5b8ce4c1adeb.jpg)
 
 ![Output 2](https://user-images.githubusercontent.com/85727619/128590222-9ad844c5-ab5e-4731-80bc-0bd0bd152b82.jpg)
 
@@ -36,11 +36,11 @@ From the above graph, we can tell that there were more retrenchment in 1998 and 
 
 ### <font color='#003399'> Q: Which are the most badly impacted industry in these 3 years (1998, 2001, 2020)? </font>
 
-![3](https://user-images.githubusercontent.com/85727619/128604851-baa318b5-034c-4e78-a299-2b00046d2a87.jpg)
+![3](https://user-images.githubusercontent.com/85727619/128605253-6c66126c-9daa-4566-a3a3-fbb2ac25a3ba.jpg)
 
 ![Output 2 5](https://user-images.githubusercontent.com/85727619/128590789-88dcb35a-6352-473b-ae79-ace3482b21b8.jpg)
 
-![4](https://user-images.githubusercontent.com/85727619/128604874-9cdcc8d7-af7c-49ab-bd31-470e1bfb1d7f.jpg)
+![4 1](https://user-images.githubusercontent.com/85727619/128605257-e9fba771-0aac-4ddc-a6da-883228f1ad8e.jpg)
 
 ![Output 3](https://user-images.githubusercontent.com/85727619/128590561-5b99ced2-43e6-4319-b7bc-b1d1bacae443.jpg)
 
@@ -49,22 +49,22 @@ Unlike the 2 earlier years, where manufacturing was the industry facing most ret
 
 ### <font color='#003399'> Q: Which line of service in specific has the highest retrenchment in 2020? </font>
 
-![5](https://user-images.githubusercontent.com/85727619/128604886-46981476-e10f-4c51-aad5-61a9e416daff.jpg)
+![5](https://user-images.githubusercontent.com/85727619/128605260-adb85e83-088a-40fa-a468-6757f87d3e9c.jpg)
 
 ![Output 3 5](https://user-images.githubusercontent.com/85727619/128590766-0cd5dfcd-bcb5-4aa8-84c0-e85b9c8df6bb.jpg)
 
-![6](https://user-images.githubusercontent.com/85727619/128604904-025a1508-1825-4c57-9003-829316057dc2.jpg)
+![6](https://user-images.githubusercontent.com/85727619/128605262-bbabd2a1-e4ae-4e82-9a5f-dc2a2f4e7be4.jpg)
 
 ![Output 4](https://user-images.githubusercontent.com/85727619/128590728-14e258c6-6610-4b2d-b9d0-79b3c7c3f3d7.jpg)
 
 
 ### <font color='#003399'> Q: Are there enough vacancies in the service industry? </font>
 
-![7](https://user-images.githubusercontent.com/85727619/128604917-0181c913-3204-406c-bc50-28b45e2808a7.jpg)
+![7](https://user-images.githubusercontent.com/85727619/128605266-efcaa627-1221-46ff-b67e-8507cb5c38c7.jpg)
 
 ![Output 4 5](https://user-images.githubusercontent.com/85727619/128601689-079ad328-4bc6-4649-ae7d-62dc7d5454de.jpg)
 
-![8](https://user-images.githubusercontent.com/85727619/128604935-2c24d0ac-62b8-49d5-ab6b-d8441c5c5b86.jpg)
+![8](https://user-images.githubusercontent.com/85727619/128605267-641fc9d6-aea6-4555-a503-0902668d98a7.jpg)
 
 ![Output 5](https://user-images.githubusercontent.com/85727619/128601787-7336fb31-f378-4863-ae93-dcc980e98c2f.jpg)
 
@@ -72,11 +72,11 @@ Seems like there was quite a number of vacancies unfilled despite sharp increase
 
 Let's see where in service industry do the unfilled vacancies lie.
 
-![9](https://user-images.githubusercontent.com/85727619/128604952-fee2f372-feea-4ccc-a836-4875b3b6b967.jpg)
+![9](https://user-images.githubusercontent.com/85727619/128605272-d6d158ff-1519-4a59-ad8d-a17b82b23261.jpg)
 
 ![Output 5 5](https://user-images.githubusercontent.com/85727619/128601872-fce372dd-6bb8-49b3-b3f8-215fc5f0dfa4.jpg)
 
-![10](https://user-images.githubusercontent.com/85727619/128604965-8f816ba3-69e8-4e61-be67-186d02a0c74a.jpg)
+![10](https://user-images.githubusercontent.com/85727619/128605277-5443bbdb-d774-4ad7-9e59-8efec17658e7.jpg)
 
 ![Output 6](https://user-images.githubusercontent.com/85727619/128601901-5e64a83c-d677-4715-b783-9ba998b08048.jpg)
 
