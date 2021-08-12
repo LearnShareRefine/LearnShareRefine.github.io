@@ -16,7 +16,15 @@
 
 <!-- Add your details -->
 
-I am __Louise__, an ex-relationship manager getting my hands into data and Fintech.
+I am __Louise__
+👩‍💻 On my journey to become a fintech and data specialist
+-- Excited to dive into fintech innovations and embark on a digital journey in the financial services landscape.
+
+👩🏻‍🎓 Strong advocator of lifelong learning
+-- Hungry to learn, take every opportunity to learn, share and refine my skills!
+
+💼 Experience
+-- Consumer banking, Wealth management, Investment advisory, Robo-advisory, Credit management
 
 
 <!-- Add link to the sections -->
