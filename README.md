@@ -16,7 +16,7 @@
 
 <!-- Add your details -->
 
-I am __Louise__
+I am __Louise__ <br>
 👩‍💻 On my journey to become a fintech and data specialist
 -- Excited to dive into fintech innovations and embark on a digital journey in the financial services landscape.
 
