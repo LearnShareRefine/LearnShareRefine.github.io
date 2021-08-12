@@ -3,7 +3,7 @@
 
 <!-- Add your details -->
 ✉️: louiselsr@gmail.com
-&nbsp;&nbsp; 📲 +65-96178964
+&nbsp;&nbsp; 📲 +65-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [LinkedIn](https://www.linkedin.com/in/lawshiangrou/) 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Website](https://learnsharerefine.github.io/)
 <!-- CONTACT Section Ends -->
@@ -12,11 +12,11 @@
 ### ABOUT
 <!-- Add link to your picture -->
 
-<img width="180" alt="Work Photo" src="https://user-images.githubusercontent.com/85727619/129176101-92f78fa9-8479-49ec-bd9d-c540ed7bf7b1.PNG">
+<img width="179" alt="Work Photo 1" src="https://user-images.githubusercontent.com/85727619/129176182-0b090461-ffea-4211-b616-0ab6c36937c9.PNG">
 
 <!-- Add your details -->
 
-I am __Kumar Vishwesh__, a seasoned data scientist with ~7 years of progressive experience in artificial intelligence. I have contributed as an AI product developer (R&D unit) and been AI consultant for top-notch clients in their AI journey. I am involved in comprehensive development, design & analysis of AI algorithms to build analytical solutions, while facilitating and leading data science teams.
+I am __Louise__, an ex-relationship manager getting my hands into data and Fintech.
 
 
 <!-- Add link to the sections -->
@@ -31,11 +31,10 @@ I am __Kumar Vishwesh__, a seasoned data scientist with ~7 years of progressive 
 ### EXPERIENCE
 <!-- Add your details -->
 ##### BOSTON CONSULTING GROUP
-SENIOR ANALYST<br>
-June-2019 to Present: 1 year 10 Months
+RELATIONSHIP MANAGER<br>
+Citibank Singapore (Citigold)<br>
+Mar 2020 to May 2021
 
-ROLE: Data Scientist/ Machine Learning Engineer/ AI Consultant
-UNIT: BCG GAMMA
 
 Working on various analytics based cases that facilitates clients for next-generation AI strategy. Involved in asset building while applying scientific algorithms on a huge amount of text, time-series data, images and other forms of unstructured data.
 
@@ -58,19 +57,6 @@ Engineering Graduate 2010-14, First Division
 
 <!-- Add your details -->
 
-#### Classification based projects
-![alt text](https://raw.githubusercontent.com/krvishwesh54/Kumar-Vishwesh/main/images/Classification.png)
-
-In machine learning, classification refers to a predictive modeling problem where a class label is predicted for a given example of input data.
-
-[Click here to view codebase](https://github.com/krvishwesh54/DataScience_DeepLearning_MachineLearning/tree/master/Classification)
-
-#### Regression based projects
-![alt text](https://raw.githubusercontent.com/krvishwesh54/Kumar-Vishwesh/main/images/Regression.jpg)
-
-Regression is a supervised learning technique which helps in finding the correlation between variables and enables us to predict the continuous output variable based on the one or more predictor variables.
-
-[Click here to view codebase](https://github.com/krvishwesh54/DataScience_DeepLearning_MachineLearning/tree/master/Regression)
 
 <!-- PROJECTS Section Ends -->
 
