@@ -30,9 +30,9 @@ I am __Louise__, an ex-relationship manager getting my hands into data and Finte
 <!-- EXPERIENCE Section Starts -->
 ### EXPERIENCE
 <!-- Add your details -->
-##### BOSTON CONSULTING GROUP
+##### Citibank Singapore 
 RELATIONSHIP MANAGER<br>
-Citibank Singapore (Citigold)<br>
+Citigold<br>
 Mar 2020 to May 2021
 
 
