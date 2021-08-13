@@ -77,7 +77,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $gray;
+    color: #66b3ff;
   }
 }
 
@@ -274,16 +274,6 @@ nav {
     font-size: 12px;
   }
 
-  pre code {
-    display: block;
-    background: none;
-    white-space: pre;
-    -webkit-overflow-scrolling: touch;
-    overflow-x: scroll;
-    max-width: 100%;
-    min-width: 100px;
-    padding: 0;
-  }
 }
 
 .wrapper-footer {
