@@ -23,6 +23,29 @@ Data from: [data.gov.sg](https://data.gov.sg/)
 
 ![1](https://user-images.githubusercontent.com/85727619/128605237-4145cc6a-5ee7-42a6-bb7e-c107440bd454.jpg)
 
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# read retrenchment file into dataframe
+xls = pd.ExcelFile('retrenchment-by-industry-level-2.xlsx')
+df_retrench = xls.parse('retrenchment-by-industry-level')
+
+# Split into year and quarter:
+df_retrench["year"] = df_retrench["quarter"].str.split('-').str[0]
+df_retrench["quarter"] = df_retrench["quarter"].str.split('-').str[1]
+
+# move year to the first column
+df_retrench.insert(0, "year", df_retrench.pop("year"))
+
+# Convert values to flaot & coerce invalid values to NaN, then replace NaN with 0 and convert all to integer
+df_retrench['retrench'] = pd.to_numeric(df_retrench['retrench'], errors='coerce').fillna(0).astype('int')
+
+print(df_retrench.shape)
+df_retrench.head(20)
+```
+
 ![Output 1jpg](https://user-images.githubusercontent.com/85727619/128590108-357d727e-d15e-48e7-a6a0-6319fa6541cb.jpg)
 
 <H3><font color='#003399'> Q: Did Singapore face the most severe retrenchments in 2020? </font></H3>
