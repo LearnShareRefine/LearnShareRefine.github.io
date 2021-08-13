@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Retrenchment & Vacancies In Singapore - using Numpy, Pandas, Matplotlib
+title: Visualizing Retrenchment & Vacancies In Singapore using Numpy, Pandas, Matplotlib
 categories: Python
 published: true
 ---
@@ -68,9 +68,9 @@ Unlike the 2 earlier years, where manufacturing was the industry facing most ret
 
 ![Output 5](https://user-images.githubusercontent.com/85727619/128601787-7336fb31-f378-4863-ae93-dcc980e98c2f.jpg)
 
-Seems like there was quite a number of vacancies unfilled despite sharp increase in retrenchment?
+We see increased retrenchments with reduced number of vacancies, but it seems like there were still reasonable amount of vacancies unfilled. 
 
-Let's see where in service industry do the unfilled vacancies lie.
+Let's drill down further to see where in service industry do the unfilled vacancies lie.
 
 ![9](https://user-images.githubusercontent.com/85727619/128605272-d6d158ff-1519-4a59-ad8d-a17b82b23261.jpg)
 
@@ -88,7 +88,6 @@ According to [data.gov.sg](https://data.gov.sg/), below groups of occupations be
 3. Arts, entertainment and recreation
 4. Other community, social and personal services
 
-So are we right to say that there was a workforce shortage in this field in year 2020?
 
 
 <div class="post-categories">
