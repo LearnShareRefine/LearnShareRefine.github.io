@@ -2,9 +2,10 @@
 //  * Syntax highlighting styles
 //  */
 
-.highlight {
+.highlight pre {
   background-color: #f7f8fa;
   padding: 5px 10px;
+  overflow: scroll;
 
   .highlighter-rouge & {
   background-color: #f7f8fa;
