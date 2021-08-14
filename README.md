@@ -45,7 +45,7 @@ Citigold<br>
 Mar 2020 to May 2021
 
 
-Working on various analytics based cases that facilitates clients for next-generation AI strategy. Involved in asset building while applying scientific algorithms on a huge amount of text, time-series data, images and other forms of unstructured data.
+
 
 <!-- EXPERIENCE Section Ends -->
 
@@ -53,7 +53,7 @@ Working on various analytics based cases that facilitates clients for next-gener
 ### EDUCATION
 <!-- Add your details -->
 ##### LNCT Bhopal
-Engineering Graduate 2010-14, First Division
+TBC
 
 <!-- EDUCATION Section Ends -->
 
@@ -73,9 +73,9 @@ Engineering Graduate 2010-14, First Division
 ## FEATURED
 <!-- Add your details -->
 ##### Certifications
-Machine Learning by Columbia University
+TBC
 
 ##### Achievements
-Star performer of the year at Accenture
+TBC
 <!-- FEATURED Section Ends -->
 
