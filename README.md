@@ -12,13 +12,10 @@
 ### ABOUT
 <!-- Add link to your picture -->
 
-<img width="179" alt="Work Photo 1" src="https://user-images.githubusercontent.com/85727619/129176182-0b090461-ffea-4211-b616-0ab6c36937c9.PNG">
-
 <!-- Add your details -->
 
 Hi, I am __Louise__ <br>
-
-![Presentation1](https://user-images.githubusercontent.com/85727619/129468213-5cf8bb85-5a74-4d93-b79a-88ea7e0c6ab6.gif)
+<iframe src="https://giphy.com/embed/4vsqC4DF7ZA2y3NJp2" width="480" height="420" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fintech-innovation-4vsqC4DF7ZA2y3NJp2">via GIPHY</a></p>
 
 👩‍💻 On my journey to become a fintech and data specialist
 -- Excited to dive into fintech innovations and embark on a digital journey in the financial services landscape.
