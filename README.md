@@ -16,6 +16,7 @@
 
 Hi, I am __Louise__ <br>
 
+[<img src="https://media.giphy.com/media/lmwdEN4N7UYKrrIyZo/giphy.gif" width="150">](https://learnsharerefine.github.io/)
 
 👩‍💻 On my journey to become a fintech and data specialist
 -- Excited to dive into fintech innovations and embark on a digital journey in the financial services landscape.
