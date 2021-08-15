@@ -15,7 +15,8 @@
 <!-- Add your details -->
 
 Hi, I am __Louise__ <br>
-<img src="https://media.giphy.com/media/4vsqC4DF7ZA2y3NJp2/giphy.gif" width="90">
+<img src="https://media.giphy.com/media/4vsqC4DF7ZA2y3NJp2/giphy.gif" width="120">
+<img src="https://media.giphy.com/media/J6Rk78KvVmBlaOYBuA/giphy.gif" width="120">
 
 
 👩‍💻 On my journey to become a fintech and data specialist
