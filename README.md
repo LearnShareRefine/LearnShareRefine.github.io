@@ -42,31 +42,18 @@ Mar 2020 to May 2021
 <!-- EDUCATION Section Starts -->
 ### EDUCATION
 <!-- Add your details -->
-##### LNCT
-TBC
 
 <!-- EDUCATION Section Ends -->
 
 <!-- PROJECTS Section Starts -->
-### PROJECTS
-<!-- Add your details -->
 
-<!-- Add your details -->
-
-
-<!-- PROJECTS Section Ends -->
+<img src="https://media.giphy.com/media/QQG0aqlLj4egSxIEDK/giphy.gif" width="160"><br>
 
 <!-- FEATURED Section Starts -->
-## FEATURED
-<!-- Add your details -->
+
 ##### Certifications
 TBC
 
-##### Achievements
-TBC
-<!-- FEATURED Section Ends -->
-
-<!-- CONTACT Section Starts -->
 <br>
 <img src="https://media.giphy.com/media/F5n6giZyKlcEfCNIr7/giphy.gif" width="160">
 
