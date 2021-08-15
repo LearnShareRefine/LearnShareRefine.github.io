@@ -32,32 +32,31 @@
 [<img src="https://media.giphy.com/media/sbcsRYc8NIeHreuMoN/giphy.gif" width="170">](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=louiselsr@gmail.com)
 
 
-
+<!-- To Be Posted -->
 <!-- Add link to the sections -->
-[Experience](#experience) <br>
+<!-- [Experience](#experience) <br>
 [Education](#education) <br>
 [Projects](#projects) <br>
-[Featured](#featured) <br> 
+[Featured](#featured) <br> -->
 
 <!-- ABOUT Section Ends -->
 
 <!-- EXPERIENCE Section Starts -->
-### EXPERIENCE
-<!-- Add your details -->
+<!-- ### EXPERIENCE
 #### Citibank Singapore 
 RELATIONSHIP MANAGER<br>
 Citigold<br>
-Mar 2020 to May 2021
+Mar 2020 to May 2021-->
 
 
 <!-- EXPERIENCE Section Ends -->
 
 <!-- EDUCATION Section Starts -->
-### EDUCATION
+<!-- ### EDUCATION
 <!-- Add your details -->
 
 <!-- EDUCATION Section Ends -->
 
 <!-- PROJECTS Section Starts -->
-##### Certifications
-TBC
+<!-- ##### Certifications
+TBC-->
