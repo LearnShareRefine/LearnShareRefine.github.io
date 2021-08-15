@@ -15,8 +15,6 @@
 <!-- Add your details -->
 
 Hi, I am __Louise__ <br>
-<img src="https://media.giphy.com/media/4vsqC4DF7ZA2y3NJp2/giphy.gif" width="120">
-<img src="https://media.giphy.com/media/J6Rk78KvVmBlaOYBuA/giphy.gif" width="120">
 
 
 👩‍💻 On my journey to become a fintech and data specialist
@@ -28,7 +26,11 @@ Hi, I am __Louise__ <br>
 💼 Experience
 -- Consumer banking, Wealth management, Investment advisory, Robo-advisory, Credit management
 
+My Passion<br>
 
+<img src="https://media.giphy.com/media/lOf7S3ISJ60dTsdkZ8/giphy.gif" width="150">
+<img src="https://media.giphy.com/media/J6Rk78KvVmBlaOYBuA/giphy.gif" width="150">
+<img src="https://media.giphy.com/media/lmwdEN4N7UYKrrIyZo/giphy.gif" width="150">
 
 <!-- Add link to the sections -->
 [Experience](#experience) <br>
