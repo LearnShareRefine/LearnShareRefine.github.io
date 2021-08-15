@@ -1,6 +1,7 @@
 <!-- ABOUT Section Starts -->
 <img src="https://user-images.githubusercontent.com/85727619/129482943-1954d3f0-5c15-4689-ad0e-8d64310002c8.jpg" width="200"><br>
-<img src="https://user-images.githubusercontent.com/85727619/129483120-9fcdd933-405e-4d07-b712-a9bd493b516d.png" width="180"><br>
+
+<img src="https://user-images.githubusercontent.com/85727619/129483120-9fcdd933-405e-4d07-b712-a9bd493b516d.png" width="170"><br>
 
 <!-- Add your details -->
 <img src="https://media.giphy.com/media/kcghhjaUcFjeK85t8d/giphy.gif" width="160">
