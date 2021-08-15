@@ -1,5 +1,6 @@
 <!-- ABOUT Section Starts -->
 <img src="https://user-images.githubusercontent.com/85727619/129482943-1954d3f0-5c15-4689-ad0e-8d64310002c8.jpg" width="200"><br>
+![13111db7-d98f-4a21-a473-f4249310bca3](https://user-images.githubusercontent.com/85727619/129483093-52f6d2f9-f697-4e71-b446-4fac87ec6103.jpg)
 
 <!-- Add your details -->
 <img src="https://media.giphy.com/media/kcghhjaUcFjeK85t8d/giphy.gif" width="160">
