@@ -1,15 +1,6 @@
-<!-- CONTACT Section Starts -->
-### CONTACT
-
-[<img src="https://media.giphy.com/media/Fz4wwtUZuAjyDd8cnE/giphy.gif" width="170">](https://www.linkedin.com/in/lawshiangrou/) 
-[<img src="https://media.giphy.com/media/TCDHWnJYNRdHdOOzl4/giphy.gif" width="170">](https://learnsharerefine.github.io/)
-[<img src="https://media.giphy.com/media/sbcsRYc8NIeHreuMoN/giphy.gif" width="170">](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=louiselsr@gmail.com)
-
 <!-- ABOUT Section Starts -->
-### ABOUT
+#### Hi, I am __Louise__ <br>
 <!-- Add your details -->
-
-Hi, I am __Louise__ <br>
 
 👩‍💻 On my journey to become a fintech and data specialist
 -- Excited to dive into fintech innovations and embark on a digital journey in the financial services landscape.
@@ -72,4 +63,11 @@ TBC
 ##### Achievements
 TBC
 <!-- FEATURED Section Ends -->
+
+<!-- CONTACT Section Starts -->
+### CONTACT
+
+[<img src="https://media.giphy.com/media/Fz4wwtUZuAjyDd8cnE/giphy.gif" width="170">](https://www.linkedin.com/in/lawshiangrou/) 
+[<img src="https://media.giphy.com/media/TCDHWnJYNRdHdOOzl4/giphy.gif" width="170">](https://learnsharerefine.github.io/)
+[<img src="https://media.giphy.com/media/sbcsRYc8NIeHreuMoN/giphy.gif" width="170">](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=louiselsr@gmail.com)
 
