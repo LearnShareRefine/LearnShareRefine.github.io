@@ -2,20 +2,11 @@
 ### CONTACT
 
 [<img src="https://media.giphy.com/media/Fz4wwtUZuAjyDd8cnE/giphy.gif" width="150">](https://www.linkedin.com/in/lawshiangrou/) 
+[<img src="https://media.giphy.com/media/TCDHWnJYNRdHdOOzl4/giphy.gif" width="150">](https://learnsharerefine.github.io/)
 [<img src="https://media.giphy.com/media/sbcsRYc8NIeHreuMoN/giphy.gif" width="150">](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=louiselsr@gmail.com)
-
-
-<!-- Add your details -->
-✉️: louiselsr@gmail.com
-&nbsp;&nbsp; 📲 +65-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [LinkedIn](https://www.linkedin.com/in/lawshiangrou/) 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Website](https://learnsharerefine.github.io/)
-<!-- CONTACT Section Ends -->
 
 <!-- ABOUT Section Starts -->
 ### ABOUT
-<!-- Add link to your picture -->
-
 <!-- Add your details -->
 
 Hi, I am __Louise__ <br>
