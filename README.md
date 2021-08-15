@@ -20,9 +20,6 @@
 <img src="https://media.giphy.com/media/lOf7S3ISJ60dTsdkZ8/giphy.gif" width="150"> <img src="https://media.giphy.com/media/J6Rk78KvVmBlaOYBuA/giphy.gif" width="150">
 <img src="https://media.giphy.com/media/lmwdEN4N7UYKrrIyZo/giphy.gif" width="150">
 
-<br>
-<img src="https://media.giphy.com/media/QQG0aqlLj4egSxIEDK/giphy.gif" width="160"><br>
-
 
 <br>
 <img src="https://media.giphy.com/media/F5n6giZyKlcEfCNIr7/giphy.gif" width="160">
@@ -33,6 +30,10 @@
 
 
 <!-- To Be Posted -->
+
+<!--
+<img src="https://media.giphy.com/media/QQG0aqlLj4egSxIEDK/giphy.gif" width="160"><br>-->
+
 <!-- Add link to the sections -->
 <!-- [Experience](#experience) <br>
 [Education](#education) <br>
