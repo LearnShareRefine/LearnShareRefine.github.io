@@ -32,10 +32,9 @@ Hello, I am Louise. This is where I will be sharing my learning & progression. I
 
 ### Core Technical Skills
 
-<img src="https://user-images.githubusercontent.com/85727619/129471682-88c371c7-e7e9-4e45-ac75-ea2e0e223a50.jpg" width="180">
-<img src="https://user-images.githubusercontent.com/85727619/129471498-735156a8-be8a-4d73-a561-04cc0b8397c5.png" width="180">
+<img src="https://user-images.githubusercontent.com/85727619/129471682-88c371c7-e7e9-4e45-ac75-ea2e0e223a50.jpg" width="180"> <img src="https://user-images.githubusercontent.com/85727619/129471498-735156a8-be8a-4d73-a561-04cc0b8397c5.png" width="180">
 <img src="https://user-images.githubusercontent.com/85727619/129471499-b7d0ad1f-b993-4f79-a663-495bea3530ef.png" width="180">
-<img src="https://user-images.githubusercontent.com/85727619/129471500-1bed79ff-7586-4145-9ca5-85759d3c6423.png" width="180">
+<img src="https://user-images.githubusercontent.com/85727619/129471500-1bed79ff-7586-4145-9ca5-85759d3c6423.png" width="190">
 
 ### What I plan to do in this blog?
 This is a place where I record some of the practice exercises or projects I do in my learning journey. If you need someone to learn together with or don't mind a new friend, do connect with me!
