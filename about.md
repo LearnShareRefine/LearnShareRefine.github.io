@@ -31,10 +31,13 @@ Hello, I am Louise. This is where I will be sharing my learning & progression. I
 3. **Other online/offline courses** from LinkedIn Learning, Datacamp, Coursera, youtube etc
 
 ### Core Technical Skills
-![pythonlogo width="190"](https://user-images.githubusercontent.com/85727619/129471496-cc5ad143-311f-4336-83c7-05bac40ef267.jpg)
-![Microsoft_Excel-Logo wine width="190"](https://user-images.githubusercontent.com/85727619/129471498-735156a8-be8a-4d73-a561-04cc0b8397c5.png)
-![SQLlogo width="190"](https://user-images.githubusercontent.com/85727619/129471499-b7d0ad1f-b993-4f79-a663-495bea3530ef.png)
-![Power_BI-Logo width="190"](https://user-images.githubusercontent.com/85727619/129471500-1bed79ff-7586-4145-9ca5-85759d3c6423.png)
+<img src="https://user-images.githubusercontent.com/85727619/129471496-cc5ad143-311f-4336-83c7-05bac40ef267.jpg" alt="drawing" width="190"/>
+<img src="https://user-images.githubusercontent.com/85727619/129471496-cc5ad143-311f-4336-83c7-05bac40ef267.jpg" alt="drawing" width="190">
+
+![pythonlogo](https://user-images.githubusercontent.com/85727619/129471496-cc5ad143-311f-4336-83c7-05bac40ef267.jpg)
+![Microsoft_Excel-Logo wine](https://user-images.githubusercontent.com/85727619/129471498-735156a8-be8a-4d73-a561-04cc0b8397c5.png)
+![SQLlogo](https://user-images.githubusercontent.com/85727619/129471499-b7d0ad1f-b993-4f79-a663-495bea3530ef.png)
+![Power_BI-Logo](https://user-images.githubusercontent.com/85727619/129471500-1bed79ff-7586-4145-9ca5-85759d3c6423.png)
 
 ### What I plan to do in this blog?
 This is a place where I record some of the practice exercises or projects I do in my learning journey. If you need someone to learn together with or don't mind a new friend, do connect with me!
