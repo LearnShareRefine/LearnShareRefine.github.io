@@ -49,7 +49,7 @@ Mar 2020 to May 2021
 <!-- EDUCATION Section Starts -->
 ### EDUCATION
 <!-- Add your details -->
-##### LNCT Bhopal
+##### LNCT
 TBC
 
 <!-- EDUCATION Section Ends -->
@@ -57,9 +57,6 @@ TBC
 <!-- PROJECTS Section Starts -->
 ### PROJECTS
 <!-- Add your details -->
-
-[Classification based projects](#classification-based-projects) <br>
-[Regression based projects](#regression-based-projects) <br>
 
 <!-- Add your details -->
 
