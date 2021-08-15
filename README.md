@@ -1,8 +1,8 @@
 <!-- ABOUT Section Starts -->
-#### Hi, I am __Louise__ <br>
+![Name](https://user-images.githubusercontent.com/85727619/129482943-1954d3f0-5c15-4689-ad0e-8d64310002c8.jpg)<br>
 
 <!-- Add your details -->
-### ABOUT ME<br>
+<img src="https://media.giphy.com/media/kcghhjaUcFjeK85t8d/giphy.gif" width="120">
 
 👩‍💻 On my journey to become a fintech and data specialist
 -- Excited to dive into fintech innovations and embark on a digital journey in the financial services landscape.
