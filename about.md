@@ -37,5 +37,4 @@ Of course, if you like mentoring, I will be glad to be your mentee! 😉
 
 ### Contact me<br>
 [<img src="https://media.giphy.com/media/Fz4wwtUZuAjyDd8cnE/giphy.gif" width="170">](https://www.linkedin.com/in/lawshiangrou/) 
-[<img src="https://media.giphy.com/media/TCDHWnJYNRdHdOOzl4/giphy.gif" width="170">](https://learnsharerefine.github.io/)
 [<img src="https://media.giphy.com/media/sbcsRYc8NIeHreuMoN/giphy.gif" width="170">](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=louiselsr@gmail.com)
