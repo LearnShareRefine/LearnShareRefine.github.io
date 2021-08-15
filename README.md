@@ -1,6 +1,8 @@
 <!-- CONTACT Section Starts -->
 ### CONTACT
 
+[<img src="https://media.giphy.com/media/Fz4wwtUZuAjyDd8cnE/giphy.gif" width="150">](https://www.linkedin.com/in/lawshiangrou/) 
+
 <!-- Add your details -->
 ✉️: louiselsr@gmail.com
 &nbsp;&nbsp; 📲 +65-
@@ -15,8 +17,6 @@
 <!-- Add your details -->
 
 Hi, I am __Louise__ <br>
-
-[<img src="https://media.giphy.com/media/Fz4wwtUZuAjyDd8cnE/giphy.gif" width="120">](https://www.linkedin.com/in/lawshiangrou/) 
 
 👩‍💻 On my journey to become a fintech and data specialist
 -- Excited to dive into fintech innovations and embark on a digital journey in the financial services landscape.
