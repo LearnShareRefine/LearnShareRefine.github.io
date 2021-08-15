@@ -32,7 +32,7 @@ Hello, I am Louise. This is where I will be sharing my learning & progression. I
 
 ### Core Technical Skills
 
-<img src="https://user-images.githubusercontent.com/85727619/129471855-dabedf06-9a20-4116-9524-b3f7742aec81.png" width="180"> <img src="https://user-images.githubusercontent.com/85727619/129471498-735156a8-be8a-4d73-a561-04cc0b8397c5.png" width="190">
+<img src="https://user-images.githubusercontent.com/85727619/129471949-6db6ad94-10eb-4ae2-a1fc-b950aa478ed4.png" width="180"> <img src="https://user-images.githubusercontent.com/85727619/129471498-735156a8-be8a-4d73-a561-04cc0b8397c5.png" width="190">
 <img src="https://user-images.githubusercontent.com/85727619/129471499-b7d0ad1f-b993-4f79-a663-495bea3530ef.png" width="180">
 <img src="https://user-images.githubusercontent.com/85727619/129471500-1bed79ff-7586-4145-9ca5-85759d3c6423.png" width="190">
 
