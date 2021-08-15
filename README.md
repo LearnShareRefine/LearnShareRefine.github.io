@@ -68,7 +68,7 @@ TBC
 
 <!-- CONTACT Section Starts -->
 <br>
-<img src="https://media.giphy.com/media/F5n6giZyKlcEfCNIr7/giphy.gif" width="160"><br>
+<img src="https://media.giphy.com/media/F5n6giZyKlcEfCNIr7/giphy.gif" width="160">
 
 [<img src="https://media.giphy.com/media/Fz4wwtUZuAjyDd8cnE/giphy.gif" width="170">](https://www.linkedin.com/in/lawshiangrou/) 
 [<img src="https://media.giphy.com/media/TCDHWnJYNRdHdOOzl4/giphy.gif" width="170">](https://learnsharerefine.github.io/)
