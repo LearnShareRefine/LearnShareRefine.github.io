@@ -13,10 +13,9 @@
 -- Hungry to learn, take every opportunity to learn, share and refine my skills!
 
 💼 Experience
--- Consumer banking, Wealth management, Investment advisory, Robo-advisory, Credit management
-
-
-
+-- Consumer banking, Wealth management, Investment advisory, Robo-advisory, Credit management<br>
+<br>
+<br>
 <img src="https://media.giphy.com/media/8Ce7IEXlfTb4XhGUBZ/giphy.gif" width="160"><br>
 <img src="https://media.giphy.com/media/lOf7S3ISJ60dTsdkZ8/giphy.gif" width="150"> <img src="https://media.giphy.com/media/J6Rk78KvVmBlaOYBuA/giphy.gif" width="150">
 <img src="https://media.giphy.com/media/lmwdEN4N7UYKrrIyZo/giphy.gif" width="150">
