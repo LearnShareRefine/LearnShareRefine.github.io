@@ -18,6 +18,8 @@
 
 Hi, I am __Louise__ <br>
 
+![Presentation1](https://user-images.githubusercontent.com/85727619/129468213-5cf8bb85-5a74-4d93-b79a-88ea7e0c6ab6.gif)
+
 👩‍💻 On my journey to become a fintech and data specialist
 -- Excited to dive into fintech innovations and embark on a digital journey in the financial services landscape.
 
@@ -26,6 +28,7 @@ Hi, I am __Louise__ <br>
 
 💼 Experience
 -- Consumer banking, Wealth management, Investment advisory, Robo-advisory, Credit management
+
 
 
 <!-- Add link to the sections -->
