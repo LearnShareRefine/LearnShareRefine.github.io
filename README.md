@@ -15,7 +15,8 @@
 <!-- Add your details -->
 
 Hi, I am __Louise__ <br>
-<iframe src="https://giphy.com/embed/4vsqC4DF7ZA2y3NJp2" width="480" height="420" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fintech-innovation-4vsqC4DF7ZA2y3NJp2">via GIPHY</a></p>
+<img src="https://media.giphy.com/media/4vsqC4DF7ZA2y3NJp2/giphy.gif" width="90">
+
 
 👩‍💻 On my journey to become a fintech and data specialist
 -- Excited to dive into fintech innovations and embark on a digital journey in the financial services landscape.
