@@ -2,6 +2,8 @@
 ### CONTACT
 
 [<img src="https://media.giphy.com/media/Fz4wwtUZuAjyDd8cnE/giphy.gif" width="150">](https://www.linkedin.com/in/lawshiangrou/) 
+[<img src="https://media.giphy.com/media/sbcsRYc8NIeHreuMoN/giphy.gif" width="150">](louiselsr@gmail.com)
+
 
 <!-- Add your details -->
 ✉️: louiselsr@gmail.com
