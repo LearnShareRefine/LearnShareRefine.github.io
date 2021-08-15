@@ -28,9 +28,10 @@ Hi, I am __Louise__ <br>
 
 ### MY PASSION<br>
 
-<img src="https://media.giphy.com/media/lOf7S3ISJ60dTsdkZ8/giphy.gif" width="120">
-<img src="https://media.giphy.com/media/J6Rk78KvVmBlaOYBuA/giphy.gif" width="120"><br>
+<img src="https://media.giphy.com/media/lOf7S3ISJ60dTsdkZ8/giphy.gif" width="120"> <img src="https://media.giphy.com/media/J6Rk78KvVmBlaOYBuA/giphy.gif" width="120">
 
+
+<img src="https://media.giphy.com/media/lmwdEN4N7UYKrrIyZo/giphy.gif" width="150">
 
 <!-- Add link to the sections -->
 [Experience](#experience) <br>
