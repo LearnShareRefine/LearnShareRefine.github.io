@@ -1,7 +1,7 @@
 <!-- ABOUT Section Starts -->
 <img src="https://user-images.githubusercontent.com/85727619/129482943-1954d3f0-5c15-4689-ad0e-8d64310002c8.jpg" width="200"><br>
 
-[<img src="https://media.giphy.com/media/QW9Oe9EY1o2zE649Cc/giphy.gif" width="190" align="middle">](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=louiselsr@gmail.com)**→ On my way to achieve the goals!** 
+[<img src="https://media.giphy.com/media/QW9Oe9EY1o2zE649Cc/giphy.gif" width="190" align="middle">](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=louiselsr@gmail.com)**→ On my way to achieve my life goals!** 
 
 
 <!-- Add your details -->
