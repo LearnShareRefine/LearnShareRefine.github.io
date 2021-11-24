@@ -13,6 +13,7 @@ Spotify Top 200 Weekly Global Charts in 2020 & 2021.
 
 ### Importing data as Pandas dataframe and cleaning data
 
+
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -23,19 +24,22 @@ df.head()
 ```
 ![Output1](https://user-images.githubusercontent.com/85727619/143212301-8e4ad921-a527-4116-84b7-5f5e5704e0db.jpg)
 
-<H3><font color='#003399'> Inspect the data </font></H3>
+
+<H2><font color='#003399'> Inspect the data </font></H3>
 ```python
 len(df)
 df.info()
 ```
 ![Output2](https://user-images.githubusercontent.com/85727619/143212571-de78f5f6-3fbb-48a5-9a09-49ac3435eaa3.jpg)
 
-<H3><font color='#003399'> Data Quality Issues - Missing Values </font></H3>
+
+<H2><font color='#003399'> Data Quality Issues - Missing Values </font></H3>
 From df.info() above, we know there are some missing values in Genre, it is confirmed using isna.
 ```python
 df.isna().sum()
 ```
 ![Output3](https://user-images.githubusercontent.com/85727619/143216319-82b78e09-ac5a-4d71-ba57-af14220bfbe2.jpg)
+
 
 However, we know that many times, dataset can also contain empty string or some nonsensical values. 
 The below will replace all empty string with 'NaN'
@@ -46,7 +50,8 @@ df = df.applymap(lambda x: np.nan if x == ' ' or x== '' else x)
 df.isnull().sum()
 ```
 
-<H3><font color='#003399'> Data Quality Issues - Incorrect dtypes </font></H3>
+
+<H2><font color='#003399'> Data Quality Issues - Incorrect dtypes </font></H3>
 ```python
 # in order to change the dtype for Streams and Artist Followers, need to first remove the comma
 df["Streams"] = df["Streams"].str.replace(',','').astype('int64')
@@ -57,7 +62,8 @@ df[["Popularity",Duration (ms)","Danceability","Energy","Loudness","Speechiness"
 df[["Popularity",Duration (ms)","Danceability","Energy","Loudness","Speechiness","Acousticness","Liveness","Tempo","Valence"]].apply(pd.to_numeric)
 ```
 
-<H3><font color='#003399'> Let's look at the top 50 most charted songs in 2020-2021, do these songs have highest streams also? </font></H3>
+
+<H2><font color='#003399'> Let's look at the top 50 most charted songs in 2020-2021, do these songs have highest streams also? </font></H3>
 Any top charted song which is also in the top 50 streams will be highlighted in salmon color
 
 ```python
@@ -89,14 +95,16 @@ ax.legend([bars[0],bars[19]], labels, loc='lower center',bbox_to_anchor=(0.35, -
 ax2.legend(('Total Streams (in Thousands)',),loc='lower center',bbox_to_anchor=(0.65, -0.67))
 
 plt.show()
-
 ```
+
 ![chart1](https://user-images.githubusercontent.com/85727619/143220675-6a6e7684-c133-41ed-9204-4f83f08dd93a.jpg)
+
 
 From the chart above, we can see that out of the top 50 most charted songs, only one song is within the top 50 Streams. 
 This implies that songs with high streaming volume might not be charted in the Top 200 list. 
 
 Next, let's take a quick look to see if any artist dominates the top 50 most charted song list.
+
 
 ```python
 top50_charted.groupby('Artist')['Song Name'].count().sort_values(ascending=True).plot(kind='barh',figsize=(16,9),
@@ -110,7 +118,7 @@ plt.show()
 4 out of 50 songs in the top 50 most charted songs belongs to Billie Eilish!
 
 
-<H3><font color='#003399'> Does the number of times a song get charted has anything to do with the song's characteristics? </font></H3>
+<H2><font color='#003399'> Does the number of times a song get charted has anything to do with the song's characteristics? </font></H3>
 
 ```python
 # Extract the required columns into a new dataframe
@@ -155,7 +163,8 @@ plt.show()
 
 ![chart3](https://user-images.githubusercontent.com/85727619/143225359-6bfae85e-2547-4b49-9ba8-32e72842d25c.png)
 
-<H3><font color='#003399'> Insights </font></H3>
+
+<H2><font color='#003399'> Insights </font></H3>
 
 The correlation coefficient between number of times a song is charted and other variables seem to be generally low. Popularity has the correlation coefficient 0f 0.45.
 
