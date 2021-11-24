@@ -52,19 +52,20 @@ df.isnull().sum()
 
 
 <H2><font color='#003399'> Data Quality Issues - Incorrect dtypes </font></H2>
+Ensuring the dtype is correct so that we can perform our analysis later.
+
 ```python
 # in order to change the dtype for Streams and Artist Followers, need to first remove the comma
 df["Streams"] = df["Streams"].str.replace(',','').astype('int64')
 df["Artist Followers"] = df["Artist Followers"].str.replace(',','').astype('float64')
 
 # Convert the rest of the columns to numeric as well
-df[["Popularity",Duration (ms)","Danceability","Energy","Loudness","Speechiness","Acousticness","Liveness","Tempo","Valence"]]= \
-df[["Popularity",Duration (ms)","Danceability","Energy","Loudness","Speechiness","Acousticness","Liveness","Tempo","Valence"]].apply(pd.to_numeric)
+df[["Popularity","Duration (ms)","Danceability","Energy","Loudness","Speechiness","Acousticness","Liveness","Tempo","Valence"]]= \
+df[["Popularity","Duration (ms)","Danceability","Energy","Loudness","Speechiness","Acousticness","Liveness","Tempo","Valence"]].apply(pd.to_numeric)
 ```
 
 
 <H2><font color='#003399'> Let's look at the top 50 most charted songs in 2020-2021, do these songs have highest streams also? </font></H2>
-Any top charted song which is also in the top 50 streams will be highlighted in salmon color
 
 ```python
 # filter top 50 songs with highest number of times charted
@@ -96,8 +97,8 @@ ax2.legend(('Total Streams (in Thousands)',),loc='lower center',bbox_to_anchor=(
 
 plt.show()
 ```
-
-![chart1](https://user-images.githubusercontent.com/85727619/143220675-6a6e7684-c133-41ed-9204-4f83f08dd93a.jpg)
+Any top charted song which is also in the top 50 streams will be highlighted in salmon color
+![chart1](https://user-images.githubusercontent.com/85727619/143229358-6aa9b05a-2cbf-4c42-b0ee-519d8c6ccb47.jpg)
 
 
 From the chart above, we can see that out of the top 50 most charted songs, only one song is within the top 50 Streams. 
