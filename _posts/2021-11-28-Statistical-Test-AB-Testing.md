@@ -4,8 +4,7 @@ title: Statistical Analysis - A/B Testing
 categories: Python
 published: true
 ---
-
-<center>![cookie-cats](https://user-images.githubusercontent.com/85727619/143764447-7e1c3ce9-2204-4c9e-9c3e-e742bcf22e33.png)</center>
+<center><img src="https://user-images.githubusercontent.com/85727619/143764447-7e1c3ce9-2204-4c9e-9c3e-e742bcf22e33.png"></center>
 
 
 ### Project Objective
