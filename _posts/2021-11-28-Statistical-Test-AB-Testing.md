@@ -217,7 +217,7 @@ stats.levene(group_A['sum_gamerounds'],group_B['sum_gamerounds'])
 ```
 *Output: LeveneResult(statistic=0.07510153837481241, pvalue=0.7840494387892463)*
 
-At 95% condidence level, there is insufficient statistical evidence to reject the null hypothesis (p value > alpha), hence, we can infer that the two groups have equal variances.
+> At 95% condidence level, there is insufficient statistical evidence to reject the null hypothesis (p value > alpha), hence, we can infer that the two groups have equal variances.
 
 <H4><font color='orange'> Mann-Whitney U test </font></H4>
 As both group A & B do not conform to normal distribution but have equal variance, we use non-parametric test (Mann-Whitney U test / Wilcoxon rank-sum test) to test the hypothesis.
@@ -231,7 +231,7 @@ stats.mannwhitneyu(group_A['sum_gamerounds'],group_B['sum_gamerounds'])
 ```
 *Output: MannwhitneyuResult(statistic=1009027049.5, pvalue=0.02544577639572688)*
 
-At 95% confidence interval, as p value (0.025) is less than alpha (0.05), there is sufficient statistical evidence to reject the null hypothesis. We infer that Group A and B do not have equal mean number of gamerounds played.
+> At 95% confidence interval, as p value (0.025) is less than alpha (0.05), there is sufficient statistical evidence to reject the null hypothesis. We infer that Group A and B do not have equal mean number of gamerounds played.
 
 
 
