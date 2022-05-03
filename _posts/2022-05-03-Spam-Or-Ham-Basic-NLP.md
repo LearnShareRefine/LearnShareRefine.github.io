@@ -5,7 +5,7 @@ categories: Python
 published: true
 ---
 <left><img width="280" src="https://user-images.githubusercontent.com/85727619/166442105-65636720-d093-46ab-8eff-443602c03a4f.png"></left>
-<right><img width="280" src="https://user-images.githubusercontent.com/85727619/166446162-b092bd1c-b110-48cb-9eb2-3a5634d894fe.png"></right>
+<right><img width="290" src="https://user-images.githubusercontent.com/85727619/166446162-b092bd1c-b110-48cb-9eb2-3a5634d894fe.png"></right>
 
 ## Project Objective
 Build a model to classify SMSes into spam or ham (non-spam). 
@@ -15,7 +15,8 @@ In this project, Natural Language Toolkit (nltk) is used to perform text process
 to 3 machine learning models (Naive Bayes, SVC and Random Forest) for classification.
 
 ## Dataset Used
-https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+Dataset gotten from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)
 
 <H2><font color='#003399'> Basic EDA </font></H2>
 
@@ -30,7 +31,7 @@ messages = pd.read_csv('smsspamcollection/SMSSpamCollection', sep='\t', names=["
 messages.head(10)
 ```
 
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/85727619/166443282-fcb0e010-933a-4515-b7aa-820d64a42fcd.png">
+<img width="310" alt="image" src="https://user-images.githubusercontent.com/85727619/166443282-fcb0e010-933a-4515-b7aa-820d64a42fcd.png">
 
 
 ```python
@@ -38,7 +39,7 @@ sns.countplot(data=messages,x='label')
 plt.show()
 ```
 
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/85727619/166443749-96b0f03b-2b18-495a-80be-8007ca4afc06.png">
+<img width="340" alt="image" src="https://user-images.githubusercontent.com/85727619/166443749-96b0f03b-2b18-495a-80be-8007ca4afc06.png">
 
 ```python
 # explore the length of messages
@@ -55,7 +56,7 @@ plt.figure(figsize=(11,7))
 sns.histplot(data=plot,x='length',hue='label')
 ```
 
-<img width="380" alt="image" src="https://user-images.githubusercontent.com/85727619/166444473-6a4104f3-13ce-4aff-a155-e37cb6ce37e0.png">
+<img width="410" alt="image" src="https://user-images.githubusercontent.com/85727619/166444473-6a4104f3-13ce-4aff-a155-e37cb6ce37e0.png">
 
 <H2><font color='#003399'> Text Processing </font></H2>
 
@@ -100,7 +101,7 @@ for k, v in result.items():
     print(k,'\n',v)
 ```
 
-<img width="350" alt="image" src="https://user-images.githubusercontent.com/85727619/166444973-61228524-002d-485d-89b7-c7ad995f2608.png">
+<img width="370" alt="image" src="https://user-images.githubusercontent.com/85727619/166444973-61228524-002d-485d-89b7-c7ad995f2608.png">
 
 Random Forest seems to produce the best result based on accuracy, recall and f1 score.
 
