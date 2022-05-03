@@ -1,19 +1,20 @@
 ---
 layout: post
-title: Spam or Ham - Basic NLP
+title: Spam or Ham - NLP & Classification
 categories: Python
 published: true
 ---
-<center><img width="280" src="https://user-images.githubusercontent.com/85727619/166442105-65636720-d093-46ab-8eff-443602c03a4f.png"></center>
+<left><img width="280" src="https://user-images.githubusercontent.com/85727619/166442105-65636720-d093-46ab-8eff-443602c03a4f.png"></left>
+<right><img width="280" src="https://user-images.githubusercontent.com/85727619/166446162-b092bd1c-b110-48cb-9eb2-3a5634d894fe.png"></right>
 
-### Project Objective
+## Project Objective
 Build a model to classify SMSes into spam or ham (non-spam). 
 
-### Methodology
+## Methodology
 In this project, Natural Language Toolkit (nltk) is used to perform text processing and vectorization. Vectorized corpus were then fed 
 to 3 machine learning models (Naive Bayes, SVC and Random Forest) for classification.
 
-### Dataset Used
+## Dataset Used
 https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection
 
 <H2><font color='#003399'> Basic EDA </font></H2>
@@ -99,13 +100,19 @@ for k, v in result.items():
     print(k,'\n',v)
 ```
 
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/85727619/166444973-61228524-002d-485d-89b7-c7ad995f2608.png">
+<img width="350" alt="image" src="https://user-images.githubusercontent.com/85727619/166444973-61228524-002d-485d-89b7-c7ad995f2608.png">
 
 Random Forest seems to produce the best result based on accuracy, recall and f1 score.
 
-### Future Improvement
+## Future Improvement
 1. The messages in this dataset consists of many 'Singlish' words (Singaporean-English - localized English in Singapore), short-form and mis-spelled words. Other open source tools from nltk or textblob etc can be explored to help fix this issue.
 2. More fine-tuning can be done on the models
+
+
+
+
+
+
 
 
 
