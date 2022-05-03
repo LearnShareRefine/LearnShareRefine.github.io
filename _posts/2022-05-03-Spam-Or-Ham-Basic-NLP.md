@@ -38,7 +38,7 @@ sns.countplot(data=messages,x='label')
 plt.show()
 ```
 
-<img width="340" alt="image" src="https://user-images.githubusercontent.com/85727619/166443749-96b0f03b-2b18-495a-80be-8007ca4afc06.png">
+<img width="380" alt="image" src="https://user-images.githubusercontent.com/85727619/166443749-96b0f03b-2b18-495a-80be-8007ca4afc06.png">
 
 ```python
 # explore the length of messages
@@ -55,7 +55,7 @@ plt.figure(figsize=(11,7))
 sns.histplot(data=plot,x='length',hue='label')
 ```
 
-<img width="410" alt="image" src="https://user-images.githubusercontent.com/85727619/166444473-6a4104f3-13ce-4aff-a155-e37cb6ce37e0.png">
+<img width="430" alt="image" src="https://user-images.githubusercontent.com/85727619/166444473-6a4104f3-13ce-4aff-a155-e37cb6ce37e0.png">
 
 ## Text Processing & Model Building
 
