@@ -18,7 +18,7 @@ to 3 machine learning models (Naive Bayes, SVC and Random Forest) for classifica
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
 Dataset gotten from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)
 
-<H2><font color='#003399'> Basic EDA </font></H2>
+## Basic EDA
 
 ```python
 import nltk
@@ -58,7 +58,7 @@ sns.histplot(data=plot,x='length',hue='label')
 
 <img width="410" alt="image" src="https://user-images.githubusercontent.com/85727619/166444473-6a4104f3-13ce-4aff-a155-e37cb6ce37e0.png">
 
-<H2><font color='#003399'> Text Processing </font></H2>
+## Text Processing & Model Building
 
 ```python
 # define a function to remove non-words & stopwords
