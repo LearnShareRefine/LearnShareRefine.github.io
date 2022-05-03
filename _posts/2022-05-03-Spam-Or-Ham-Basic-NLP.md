@@ -15,7 +15,6 @@ In this project, Natural Language Toolkit (nltk) is used to perform text process
 to 3 machine learning models (Naive Bayes, SVC and Random Forest) for classification.
 
 ## Dataset Used
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
 Dataset gotten from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)
 
 ## Basic EDA
